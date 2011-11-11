@@ -11,20 +11,17 @@
 #include <SDL.h>
 #endif
 
-#include <math.h>
+#include <cassert>
+#include <cmath>
 #include <iostream>
 #include <iterator>
-#include <vector>
 #include <string>
-#include <cassert>
+#include <vector>
 
 #include <boost/multi_array.hpp>
-#include <boost/foreach.hpp>
+#include <boost/regex.hpp>
 #include <boost/program_options.hpp>
 #include <boost/lexical_cast.hpp>
-#include <boost/regex.hpp>
-
-#define foreach BOOST_FOREACH
 
 namespace po = boost::program_options;
 using namespace std;
