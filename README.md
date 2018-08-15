@@ -18,10 +18,13 @@ Just ./infinerator without any options will work fine as well if you just want
 to see the program in action using some sensible defaults. It does not save any
 image by default so don't worry.
 
+Compiling
+----------------------------
+
 A Code::Blocks project file is included but compiling by hand will work fine.
-Try: 
-g++ -o infinterator -O2 `sdl-config --cflags --libs` \
- -lboost_program_options-mt -lboost_filesystem-mt -lboost_regex-mt main.cpp
+Try:
+
+    g++ -o infinterator -O2 `sdl-config --cflags --libs` -lboost_program_options-mt -lboost_filesystem-mt -lboost_regex-mt main.cpp
 
 License
 ----------------------------
