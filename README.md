@@ -7,6 +7,10 @@ Image generator to generate every possible combination of a given resolution
 and color depth. It uses Boost and SDL. 
 Its practical use is unknown.
 
+![](infinerator-screenshot1.png)
+![](infinerator-screenshot2.png)
+![](infinerator-screenshot3.png)
+
 Usage
 ----------------------------
 See ./infinerator -h to get a complete list of available program options. 
